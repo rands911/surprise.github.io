@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personalized Care Package</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fdf3f3;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcccc;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            color: #ff6666;
+        }
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #ff6666;
+            margin-top: 0;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .memes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 200px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        iframe {
+            max-width: 100%;
+            height: 380px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffcccc;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Just For You, My Love</h1>
+        <p>A little something to make you smile and feel loved, even from afar.</p>
+    </header>
+
+    <section>
+        <h2>Welcome Message</h2>
+        <p>Hey baby,</p>
+        <p>I know you're feeling down, and I really wish I could be there with you right now. So I made this little care package to make you laugh, feel better, and remind you how much I love you. Let's go through it together, okay? 💖</p>
+    </section>
+
+    <section class="memes">
+        <h2>Memes & GIFs</h2>
+        <p>Here are some funny memes and GIFs to make you laugh!</p>
+        <img src="https://i.pinimg.com/originals/32/cc/1d/32cc1de6d511416580ebc3440ff70fa7.jpg" alt="Funny Meme 1">
+        <img src="https://media.tenor.com/8uAo6hVNtNAAAAAd/cat-kitten.gif" alt="Cute Cat GIF">
+        <img src="https://i.pinimg.com/originals/60/01/45/600145c8f5ecf5f480b3147a9c5b0b4e.jpg" alt="Funny Meme 2">
+        <img src="https://i.pinimg.com/originals/ff/00/30/ff00306d31b5f2a7b67f73cbe6cb64b7.jpg" alt="Cute Dog Meme">
+        <img src="https://i.pinimg.com/originals/21/84/84/2184841581a02bbd49c3e0e45c5e07cd.jpg" alt="Funny Meme 3">
+    </section>
+
+    <section>
+        <h2>Playlist Just for You</h2>
+        <p>Here are some songs that remind me of you and us:</p>
+        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWXmlLSKkfdAk" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <p>Feel free to listen to these songs while you relax! 🎶</p>
+    </section>
+
+    <section>
+        <h2>Goofy Video Message</h2>
+        <p>Here's a little joke to cheer you up:</p>
+        <p>"Why don’t skeletons fight? They don’t have the guts!" 😂</p>
+        <video controls>
+            <source src="your_video.mp4" type="video/mp4"> <!-- Replace with your video link -->
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section>
+        <h2>Love Notes</h2>
+        <p>I love you more than anything. You're my world, and even though we're far apart, you make every day better just by being in it.</p>
+        <p><i>"Roses are red, Violets are blue, I can't wait to be back with you."</i></p>
+    </section>
+
+    <footer>
+        <p>With all my love, [Your Name]</p>
+    </footer>
+</body>
+</html>
